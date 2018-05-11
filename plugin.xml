@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="de">Environment Banner</label>
+    <label lang="en">Environment Banner</label>
+
+    <version>1.0.0</version>
+    <copyright>(c) by C3</copyright>
+    <license>MIT</license>
+    <link>https://github.com/c3limited/C3ShopwareEnvironmentBanner</link>
+    <author>C3</author>
+    <compatibility minVersion="5.4.0" />
+
+    <description>
+        <![CDATA[
+            <b>How to use</b>
+            <p>Once installed and active, the SHOPWARE_ENV environment variable will be used to determine what colour to display in the backend. Values recognised are: dev, staging, preview and production. Other values are ignored.</p>
+        ]]>
+    </description>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung - Farbe für das Backend einstellen</changes>
+        <changes lang="en">First release - color for backend</changes>
+    </changelog>
+
+</plugin>

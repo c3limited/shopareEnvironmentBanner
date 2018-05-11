@@ -1,0 +1,13 @@
+{
+  "name": "c3/shopware-environment-banner",
+  "keywords": ["shopware", "development", "plugin"],
+  "description": "Environment backend styling plugin for Shopware to avoid accidental live changes",
+  "license": "MIT",
+  "type": "shopware-plugin",
+  "extra": {
+    "installer-name": "C3EnvironmentBanner"
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
