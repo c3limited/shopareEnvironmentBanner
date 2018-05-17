@@ -5,7 +5,7 @@
     <label lang="de">Environment Banner</label>
     <label lang="en">Environment Banner</label>
 
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <copyright>(c) by C3</copyright>
     <license>MIT</license>
     <link>https://github.com/c3limited/C3ShopwareEnvironmentBanner</link>
@@ -18,6 +18,11 @@
             <p>Once installed and active, the SHOPWARE_ENV environment variable will be used to determine what colour to display in the backend. Values recognised are: dev, staging, preview and production. Other values are ignored.</p>
         ]]>
     </description>
+
+    <changelog version="1.0.1">
+        <changes lang="de">Die Farbe wurde von den Symbolen entfernt, um einen Konflikt mit dem Hintergrund zu vermeiden</changes>
+        <changes lang="en">Remove blue colour from topbar icons and search bar to avoid clash with chenged backgrounds</changes>
+    </changelog>
 
     <changelog version="1.0.0">
         <changes lang="de">Erstveröffentlichung - Farbe für das Backend einstellen</changes>
